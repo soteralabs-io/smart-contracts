@@ -1,0 +1,11 @@
+[package]
+name = "wb"
+version = "0.0.1"
+published-at = "0x8bdc95e99e393fea9b0e010353ef27109ca6b93d96c57090d7ab61fc9ca4d78d"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "ae1212baf8f0837e25926d941db3d26a61c1bea2" }
+NftProtocol = { git = "https://github.com/Origin-Byte/nft-protocol.git", subdir = "contracts/nft_protocol", rev = "a933149e07f1da95bc648ee4f95904d11e70bc8e" }
+
+[addresses]
+wb =  "0x0"
